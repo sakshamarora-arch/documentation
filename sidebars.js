@@ -28,11 +28,6 @@ module.exports = {
           },
           {
             type: "doc",
-            label: "Run Your Test With Agent Skills",
-            id: "hyperexecute-agent-skills",
-          },
-          {
-            type: "doc",
             label: "Guided Walkthrough",
             id: "hyperexecute-guided-walkthrough",
           },
@@ -3010,11 +3005,6 @@ module.exports = {
         },
         items: [
           {
-            type: "doc",
-            label: "Run Your Test With Agent Skills",
-            id: "appium-agent-skills",
-          },
-          {
             type: "category",
             collapsed: true,
             label: "Languages and Frameworks",
@@ -3198,11 +3188,6 @@ module.exports = {
         id: "getting-started-with-espresso-testing",
       },
       {
-        type: "doc",
-        label: "Run Your Test With Agent Skills",
-        id: "espresso-agent-skills",
-      },
-      {
         type: "category",
         collapsed: true,
         label: "Supported Capabilities",
@@ -3375,7 +3360,6 @@ module.exports = {
         },
         items: [
           "smartui-running-your-first-project",
-          "smartui-agent-skills",
           "smartui-guided-walkthrough",
           "smartui-cli-env-variables",
           "smartui-approval-workflow-guide",
@@ -4480,7 +4464,8 @@ module.exports = {
           "dedicated-proxy",
           "bypass-proxy-domains",
           "socks5-proxy-support",
-          "http2-support", // Added HTTP/2 support doc
+          "http2-support",
+          "site-to-site-ipsec-vpn-setup",
         ],
       },
       {
