@@ -48,6 +48,10 @@ import BrandName, { BRAND_URL } from '@site/src/component/BrandName';
 
 With Slack Notifications for App Automation, you can receive real-time updates about your test sessions and build summaries directly in your Slack channels. This eliminates the need to manually monitor the dashboard and keeps your entire team informed about test execution results.
 
+:::note
+To enable this feature for your organization, please contact us via **24×7 chat support** or drop a mail to [support@testmuai.com](mailto:support@testmuai.com).
+:::
+
 ## Prerequisites
 
 - A <BrandName /> account with App Automation access.

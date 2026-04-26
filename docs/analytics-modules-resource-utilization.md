@@ -73,6 +73,10 @@ The Concurrency Trends widget provides a visual representation of your parallel 
 - It presents the concurrency trends in a graph format, displaying the number of sessions in use and the number of sessions queued at each time interval
 - You can hover over specific data points to view the exact number of sessions in use and queued at that particular time
 
+:::tip Minute-Level Granularity
+Want a closer look at your concurrency patterns? Select a time range of 24 hours or less on your dashboard, and you'll be able to view concurrency data at 1-minute, 5-minute, or 10-minute intervals. This works best when you're investigating specific spikes or want to understand exactly when your tests are queuing up.
+:::
+
 ---
 
 ## Group Concurrency Trends

@@ -276,6 +276,26 @@ Custom widgets can be used for various purposes, including:
 - **Comparing Test Results**: Compare test results across different environments or configurations to identify discrepancies and ensure consistent performance.
 - **Visualizing Test Coverage**: Create visualizations to understand the coverage of your tests across different features or components of your application.
 
+### Private Real Device Widgets
+
+If you have private/dedicated real devices, you can create custom widgets to track their usage independently. Use the filter **is_dedicated = Equals = true** in the filter step to scope any widget to your private devices only.
+
+**Step 1:** While creating a custom widget, go to the **Filter Data** section and set `is_dedicated = Equals = true`.
+
+<img loading="lazy" src={require('../assets/images/analytics/private-real-devices/Applying-Filter-Private-Devices.png').default} alt="Applying is_dedicated filter for private devices" width="768" height="373" className="doc_img"/>
+
+**Step 2:** Configure your visualization type, columns, and measures as needed. For example, you can set `device` as the column and `test_id (Count)` as a measure to see per-device test distribution.
+
+<img loading="lazy" src={require('../assets/images/analytics/private-real-devices/Visual-plot-creation.png').default} alt="Configuring widget visualization and measures" width="768" height="373" className="doc_img"/>
+
+**Step 3:** Click **Create Dashboard** to save. Your custom private device widgets will appear on your dashboard.
+
+<img loading="lazy" src={require('../assets/images/analytics/private-real-devices/dashboard-with-privatedevice-widgets.png').default} alt="Dashboard with private device custom widgets" width="768" height="373" className="doc_img"/>
+
+:::tip
+You can create separate widgets for **App Automation** and **Real Device** products by combining the `is_dedicated` filter with product-specific filters. This gives you granular visibility into how your private devices are being utilized across different testing types.
+:::
+
 For detailed widget-specific use cases and examples, see:
 - [Heatmap Widget Use Cases](/docs/analytics-heatmap-widgets#use-cases-for-heatmap-widgets)
 - [Bar and Line Chart Use Cases](/docs/analytics-bar-line-widgets#use-cases-for-bar-and-line-chart-widgets)
